@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What city were you born?"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:onClick="onclickwidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PARIS" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="onclickwidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEW YORK" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="onclickwidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEIJING" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="onclickwidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEOUL" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="onclickwidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LONDON" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="onclickwidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOKYO" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Birth Place"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>

@@ -20,42 +20,42 @@
 
     <Button
         android:id="@+id/button1"
-        android:onClick="onclickwidget"
+        android:onClick="onclickwidget1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PARIS" />
 
     <Button
         android:id="@+id/button2"
-        android:onClick="onclickwidget"
+        android:onClick="onclickwidget1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="NEW YORK" />
 
     <Button
         android:id="@+id/button3"
-        android:onClick="onclickwidget"
+        android:onClick="onclickwidget1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BEIJING" />
 
     <Button
         android:id="@+id/button4"
-        android:onClick="onclickwidget"
+        android:onClick="onclickwidget1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SEOUL" />
 
     <Button
         android:id="@+id/button5"
-        android:onClick="onclickwidget"
+        android:onClick="onclickwidget1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LONDON" />
 
     <Button
         android:id="@+id/button6"
-        android:onClick="onclickwidget"
+        android:onClick="onclickwidget1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TOKYO" />
@@ -67,6 +67,13 @@
         android:layout_gravity="center"
         android:text="Birth Place"
         android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclickwidget1"
+        android:text="INITIALIZE" />
 
 
 
